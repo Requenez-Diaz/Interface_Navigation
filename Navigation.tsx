@@ -1,10 +1,7 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import { Feather } from "@expo/vector-icons";
-import { Fontisto } from "@expo/vector-icons";
-import { Ionicons } from "@expo/vector-icons";
-import { FontAwesome } from "@expo/vector-icons";
+
  
 //screens
 
@@ -12,6 +9,10 @@ import HomeScreen from "./src/screens/HomeScreen";
 import FavoriteScreen from "./src/screens/FavoriteScreen";
 import NotificationScreen from "./src/screens/NotificationScreen";
 import ProfileScreen from "./src/screens/ProfileScreen";
+import { Feather } from "@expo/vector-icons";
+import { Fontisto } from "@expo/vector-icons";
+import { Ionicons } from "@expo/vector-icons";
+import { FontAwesome } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
 
