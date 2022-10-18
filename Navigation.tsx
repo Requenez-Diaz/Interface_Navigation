@@ -1,7 +1,11 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-
+import { Feather } from "@expo/vector-icons";
+import { Fontisto } from "@expo/vector-icons";
+import { Ionicons } from "@expo/vector-icons";
+import { FontAwesome } from "@expo/vector-icons";
+ 
 //screens
 
 import HomeScreen from "./src/screens/HomeScreen";
@@ -13,11 +17,56 @@ const Tab = createBottomTabNavigator();
 
 function MyTabs() {
   return (
-    <Tab.Navigator>
-      <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Notification" component={NotificationScreen} />
-      <Tab.Screen name="Favorites" component={FavoriteScreen} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
+    <Tab.Navigator
+      initialRouteName="Home"
+      screenOptions={{
+        tabBarActiveTintColor: "red",
+      }}
+    >
+      <Tab.Screen
+        name="Encontrar mejores recetas para cocinar"
+        component={HomeScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ color, size }) => (
+            <Feather name="home" size={24} color={color} />
+          ),
+          headerShown: true,
+        }}
+      />
+      <Tab.Screen
+        name="Resestas guardadas"
+        component={FavoriteScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ color, size }) => (
+            <Fontisto name="favorite" size={24} color={color} />
+          ),
+          headerShown: true,
+        }}
+      />
+      <Tab.Screen
+        name="Notification"
+        component={NotificationScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="notifications" size={24} color={color} />
+          ),
+          headerShown: true,
+        }}
+      />
+      <Tab.Screen
+        name="Mi perfil"
+        component={ProfileScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ color, size }) => (
+            <FontAwesome name="user" size={24} color={color} />
+          ),
+          headerShown: true,
+        }}
+      />
     </Tab.Navigator>
   );
 }
