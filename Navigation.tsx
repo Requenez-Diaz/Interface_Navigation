@@ -1,18 +1,32 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 
- 
+//://www.youtube.com/watch?v=WMOPvJot0yI
+
 //screens
 
 import HomeScreen from "./src/screens/HomeScreen";
 import FavoriteScreen from "./src/screens/FavoriteScreen";
 import NotificationScreen from "./src/screens/NotificationScreen";
 import ProfileScreen from "./src/screens/ProfileScreen";
+
+//Use Icon
 import { Feather } from "@expo/vector-icons";
 import { Fontisto } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
+
+const HomeStackNaviagator = createNativeStackNavigator();
+
+function Tacks() {
+  return (
+    <HomeStackNaviagator.Navigator initialRouteName="Home">
+      <HomeStackNaviagator.Screen name="Home" component={HomeScreen} />
+    </HomeStackNaviagator.Navigator>
+  );
+}
 
 const Tab = createBottomTabNavigator();
 
@@ -36,7 +50,7 @@ function MyTabs() {
         }}
       />
       <Tab.Screen
-        name="Resestas guardadas"
+        name="Resetas guardadas"
         component={FavoriteScreen}
         options={{
           tabBarLabel: "",
