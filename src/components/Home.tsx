@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
   },
   two: {
     paddingLeft: 220,
-    fontSize: 15
+    fontSize: 15,
+    color: 'red'
   }
 });
