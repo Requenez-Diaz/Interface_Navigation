@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Home from "./Home";
+import { View } from "react-native";
+import { ScrollView } from "react-native-gesture-handler";
 
 const Body = () => {
-    return (
-        <></>
-    )
-}
+  return (
+    <ScrollView>
+      <View>
+        <Home />
+      </View>
+    </ScrollView>
+  );
+};
 
 export default Body;

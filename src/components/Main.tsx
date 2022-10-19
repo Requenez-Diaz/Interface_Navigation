@@ -1,12 +1,11 @@
 import React from 'react'
-import {View, Text} from 'react-native'
-import Home from './Home'
+
+import Body from './Body'
 
 const Main = () => {
     return (  
-    <Home/>
-    //Aca vamos a renderizar todas las vistas y mandarlas a las navigations
-    )
+    <Body/>
+    );
 }
 
 export default Main;
