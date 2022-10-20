@@ -8,7 +8,6 @@ const Body = () => {
     <ScrollView>
       <View>
         <Home />
-        
       </View>
     </ScrollView>
   );
