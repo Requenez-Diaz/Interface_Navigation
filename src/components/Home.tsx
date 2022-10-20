@@ -3,6 +3,8 @@ import { View, TextInput, StyleSheet, Text } from "react-native";
 import { EvilIcons } from "@expo/vector-icons";
 import { AntDesign } from '@expo/vector-icons';
 import Vuclip from './Vuclip'
+import Categoria from "./Categoria";
+import Scroll from "./Scroll";
 
 const Home = () => {
   return (
@@ -27,6 +29,8 @@ const Home = () => {
       </View>
       <View>
         <Vuclip/>
+        <Categoria/>
+        <Scroll/>
       </View>
     </View>
   );
