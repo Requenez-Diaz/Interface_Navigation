@@ -71,8 +71,8 @@ function MyTabs() {
           headerShown: true,
         }}
       />
-      <Tab.Screen
-        name="Mi perfil"
+      <Tab.Screen 
+        name="Mi perfil" 
         component={ProfileScreen}
         options={{
           tabBarLabel: "",

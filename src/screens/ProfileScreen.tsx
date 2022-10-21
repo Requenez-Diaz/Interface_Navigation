@@ -1,9 +1,10 @@
 import React from "react";
 import { View, Text } from "react-native";
+import Main from '../components/Main'
 
 const ProfileScreen = () => {
-  <View>
-    <Text>Hola</Text>
-  </View>;
+  return (
+    <Main/>
+  )
 };
 export default ProfileScreen;
