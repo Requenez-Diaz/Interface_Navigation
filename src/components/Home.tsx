@@ -6,6 +6,10 @@ import Vuclip from './Vuclip'
 import Categoria from "./Categoria";
 import Scroll from "./Scroll";
 import { CategoryImage } from "./CategoryFoot";
+import Recient from "./componentsHome/Recient";
+import ImagenesRecients from "./componentsHome/ImagenesRecients";
+import Creadores from "./componentsHome/Creadores";
+import Creators from "./componentsHome/Creators";
 
 const Home = () => {
   return (
@@ -33,6 +37,10 @@ const Home = () => {
         <Categoria/>
         <Scroll/>
         <CategoryImage/>
+        <Recient/>
+        <ImagenesRecients/>
+        <Creators/>
+        <Creadores/>
       </View>
     </View>
   );

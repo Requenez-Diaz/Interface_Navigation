@@ -44,7 +44,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     paddingTop: 10,
-    marginLeft: 10,
   },
   scroll: {
     margin: 20
@@ -55,7 +54,7 @@ const styles = StyleSheet.create({
     paddingVertical: 7,
     paddingHorizontal: 20,
     borderRadius: 35,
-    backgroundColor: "red",
+    backgroundColor: "#E14040",
     fontSize: 20,
   },
   txt: {
