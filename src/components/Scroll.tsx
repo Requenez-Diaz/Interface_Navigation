@@ -18,11 +18,6 @@ const Scroll = () => {
           </TouchableOpacity>
           <TouchableOpacity>
             <Text style={styles.txt1}>Breackfast</Text>
-            <View style={styles.breackfast}>
-              <Image style={styles.breack} source={require('../Img/file.jpg')} />
-              <View>
-              </View>
-            </View>
           </TouchableOpacity>
           <TouchableOpacity>
             <Text style={styles.txt}>Appetizer</Text>
@@ -72,12 +67,4 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 50,
   },
-  breackfast: {
-
-  },
-  breack: {
-    width: 50,
-    height: 50,
-    borderRadius: 50,
-  }
 });

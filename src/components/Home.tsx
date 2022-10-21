@@ -5,6 +5,7 @@ import { AntDesign } from '@expo/vector-icons';
 import Vuclip from './Vuclip'
 import Categoria from "./Categoria";
 import Scroll from "./Scroll";
+import { CategoryImage } from "./CategoryFoot";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
         <Vuclip/>
         <Categoria/>
         <Scroll/>
+        <CategoryImage/>
       </View>
     </View>
   );

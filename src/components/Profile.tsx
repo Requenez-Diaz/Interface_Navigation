@@ -5,7 +5,7 @@ const Profile = () => {
     return (
         <ScrollView>
             <View>
-                <Text>Hola que nota</Text>
+                <Text>Hola que notdsdfsdfsda</Text>
                 <View>
                     <Text>HOLA BUENAS</Text>
                 </View>
