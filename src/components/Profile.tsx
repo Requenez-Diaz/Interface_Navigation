@@ -1,11 +1,17 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 
 const Profile = () => {
     return (
-        <View>
-            <Text>Hola que nota</Text>
-        </View>
+        <ScrollView>
+            <View>
+                <Text>Hola que nota</Text>
+                <View>
+                    <Text>HOLA BUENAS</Text>
+                </View>
+            </View>
+        </ScrollView>
+
     )
 }
 

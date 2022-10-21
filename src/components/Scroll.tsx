@@ -5,18 +5,24 @@ import {
   StyleSheet,
   Text,
   TouchableOpacity,
+  Image
 } from "react-native";
 
 const Scroll = () => {
   return (
     <View style={styles.container}>
       <View style={styles.scroll}>
-        <ScrollView horizontal= {true} >
+        <ScrollView horizontal={true} >
           <TouchableOpacity>
             <Text style={styles.txt}>Salad</Text>
           </TouchableOpacity>
           <TouchableOpacity>
             <Text style={styles.txt1}>Breackfast</Text>
+            <View style={styles.breackfast}>
+              <Image style={styles.breack} source={require('../Img/file.jpg')} />
+              <View>
+              </View>
+            </View>
           </TouchableOpacity>
           <TouchableOpacity>
             <Text style={styles.txt}>Appetizer</Text>
@@ -38,24 +44,24 @@ const Scroll = () => {
 export default Scroll;
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        flexDirection: "row",
-        justifyContent: "center",
-        paddingTop: 10,
-        marginLeft: 10,
-    },
+  container: {
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "center",
+    paddingTop: 10,
+    marginLeft: 10,
+  },
   scroll: {
     margin: 20
   },
   txt1: {
-  justifyContent: "center",
-  color: "white",
-  paddingVertical: 7,
-  paddingHorizontal: 20,
-  borderRadius: 35,
-  backgroundColor: "red",
-  fontSize: 20,
+    justifyContent: "center",
+    color: "white",
+    paddingVertical: 7,
+    paddingHorizontal: 20,
+    borderRadius: 35,
+    backgroundColor: "red",
+    fontSize: 20,
   },
   txt: {
     textAlign: "center",
@@ -64,6 +70,14 @@ const styles = StyleSheet.create({
     fontSize: 20,
     paddingVertical: 7,
     paddingHorizontal: 20,
+    borderRadius: 50,
+  },
+  breackfast: {
+
+  },
+  breack: {
+    width: 50,
+    height: 50,
     borderRadius: 50,
   }
 });
