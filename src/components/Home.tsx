@@ -2,10 +2,10 @@ import React from "react";
 import { View, TextInput, StyleSheet, Text } from "react-native";
 import { EvilIcons } from "@expo/vector-icons";
 import { AntDesign } from '@expo/vector-icons';
-import Vuclip from './Vuclip'
-import Categoria from "./Categoria";
-import Scroll from "./Scroll";
-import { CategoryImage } from "./CategoryFoot";
+import Vuclip from './componentsHome/Vuclip'
+import Categoria from "./componentsHome/Categoria";
+import Scroll from "./componentsHome/Scroll";
+import { CategoryImage } from "./componentsHome/CategoryFoot";
 import Recient from "./componentsHome/Recient";
 import ImagenesRecients from "./componentsHome/ImagenesRecients";
 import Creadores from "./componentsHome/Creadores";

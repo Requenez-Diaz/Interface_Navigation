@@ -9,7 +9,7 @@ export const CategoryImage = () => {
             <View style={styles.breackfast}>
                 <View style={styles.container2}>
                     <View style={styles.circle}>
-                        <Image style={styles.breack} source={require('../Img/file.jpg')} />
+                        <Image style={styles.breack} source={require('../../Img/file.jpg')} />
                     </View>
                     <View style={styles.txt2}>
                         <Text style={styles.txt}>Pepper aweetcorn</Text>
@@ -31,7 +31,7 @@ export const CategoryImage = () => {
                 </View>
                 <View style={styles.container2}>
                     <View style={styles.circle}>
-                        <Image style={styles.breack} source={require('../Img/file.jpg')} />
+                        <Image style={styles.breack} source={require('../../Img/file.jpg')} />
                     </View>
                     <View style={styles.txt2}>
                         <Text style={styles.txt}>Cheddar cheese</Text>
@@ -53,7 +53,7 @@ export const CategoryImage = () => {
                 </View>
                 <View style={styles.container2}>
                     <View style={styles.circle}>
-                        <Image style={styles.breack} source={require('../Img/file.jpg')} />
+                        <Image style={styles.breack} source={require('../../Img/file.jpg')} />
                     </View>
                     <View style={styles.txt2}>
                         <Text style={styles.txt}>Pepper aweetcorn</Text>
@@ -75,7 +75,7 @@ export const CategoryImage = () => {
                 </View>
                 <View style={styles.container2}>
                     <View style={styles.circle}>
-                        <Image style={styles.breack} source={require('../Img/file.jpg')} />
+                        <Image style={styles.breack} source={require('../../Img/file.jpg')} />
                     </View>
                     <View style={styles.txt2}>
                         <Text style={styles.txt}>Pepper aweetcorn</Text>
