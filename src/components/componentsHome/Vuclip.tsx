@@ -9,7 +9,7 @@ const Vuclip = () => {
     <ScrollView horizontal={true}>
       <View style={styles.container}>
         <View>
-          <Image style={styles.img} source={require("../Img/Comida.jpg")} />
+          <Image style={styles.img} source={require("../../Img/Comida.jpg")} />
           <FontAwesome5
             style={styles.play}
             name="play-circle"
@@ -53,7 +53,7 @@ const Vuclip = () => {
         <View>
           <Image
             style={styles.img}
-            source={require("../Img//Entomatadas.jpg")}
+            source={require("../../Img/Entomatadas.jpg")}
           />
           <FontAwesome5
             style={styles.play}
@@ -98,7 +98,7 @@ const Vuclip = () => {
         <View>
           <Image
             style={styles.img}
-            source={require("../Img/lasana-comida.jpg")}
+            source={require("../../Img/lasana-comida.jpg")}
           />
           <FontAwesome5
             style={styles.play}
@@ -141,7 +141,7 @@ const Vuclip = () => {
           </View>
         </View>
         <View>
-          <Image style={styles.img} source={require("../Img/good.jpg")} />
+          <Image style={styles.img} source={require("../../Img/good.jpg")} />
           <FontAwesome5
             style={styles.play}
             name="play-circle"
