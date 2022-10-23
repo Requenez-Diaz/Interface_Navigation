@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./Home";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
 
 const Body = () => {

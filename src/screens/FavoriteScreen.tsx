@@ -1,8 +1,9 @@
 import React from "react";
 import { View, Text } from "react-native";
+import Recipe from '../components/Favorite'
 const FavoriteScreen = () => {
-  <View>
-    <Text>Hola</Text>
-  </View>;
+  return( 
+  <Recipe/>
+  )
 };
 export default FavoriteScreen;
